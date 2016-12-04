@@ -5,7 +5,7 @@ angular
             return {
 
                 getBerries: function() {
-                    return $http.get('http://pokeapi.co/api/v2/berry/?limit=5');
+                    return $http.get('https://api.backendless.com/v1/data/berries');
                 }
 
             }
